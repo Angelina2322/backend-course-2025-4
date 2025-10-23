@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start:dev": "nodemon index.js -- --host 127.0.0.1 --port 3000 --input ./data.txt"
+    "start:dev": "nodemon index.js -- --host 127.0.0.1 --port 3000 --input ./weather.json"
   },
   "keywords": [
     "node",
@@ -15,7 +15,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "commander": "^14.0.1"
+    "commander": "^14.0.1",
+    "fast-xml-parser": "^4.4.1" 
   },
   "devDependencies": {
     "nodemon": "^3.1.4"
