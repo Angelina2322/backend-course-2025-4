@@ -1,26 +1,23 @@
 {
   "name": "backend-course-2025-4",
   "version": "1.0.0",
-  "description": "",
+  "description": "Проєкт для роботи з командним рядком і веб-сервером.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon index.js -- --host 127.0.0.1 --port 3000 --input ./data.txt"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Angelina2322/backend-course-2025-4.git"
-  },
-  "keywords": [],
+  "keywords": [
+    "node",
+    "commander",
+    "http"
+  ],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Angelina2322/backend-course-2025-4/issues"
-  },
-  "homepage": "https://github.com/Angelina2322/backend-course-2025-4#readme",
   "dependencies": {
     "commander": "^14.0.1"
   },
   "devDependencies": {
-    "nodemon": "^3.1.10"
+    "nodemon": "^3.1.4"
   }
 }
